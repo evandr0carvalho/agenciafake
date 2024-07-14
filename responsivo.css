@@ -1,0 +1,60 @@
+@media screen and (max-width: 1005px) {
+  .navbar {
+    position: relative;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .logo {
+    margin: 0;
+    text-align: center;
+  }
+
+  .header {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+  }
+
+  .headline {
+    width: 100%;
+    margin: 5%;
+    text-align: center;
+  }
+
+  .headline h2 {
+    font-size: 5vw; /* Ajuste o tamanho da fonte para ser responsivo */
+  }
+
+  .headline p {
+    font-size: 3vw; /* Ajuste o tamanho da fonte do parágrafo */
+    text-align: center;
+  }
+
+  .img-headline {
+    width: 50%;
+    display: flex;
+    justify-content: center; /* Centraliza a imagem horizontalmente */
+    margin-top: 20px; /* Adiciona espaço acima da imagem */
+  }
+
+  .img-headline img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  section h2{
+    font-size: 45px;
+  }
+
+  .card{
+    width: 100%;
+  }
+
+  .whats{
+    display: none;
+  }
+}
